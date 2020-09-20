@@ -1,6 +1,6 @@
 # first-clustring-project
 
-About Dataset(information from https://archive.ics.uci.edu/ml/datasets/Query+Analytics+Workloads+Dataset):
+# About Dataset(information from https://archive.ics.uci.edu/ml/datasets/Query+Analytics+Workloads+Dataset):
 The data-set contains three (3) sets of synthetic range and radius query workloads derived from Gaussian distributions over the real dataset in [URL-1]. Each processed query is associated with aggregate scalar values (count, sum, average) over the dataset in [URL-1].
 
 [URL-1]: [Web Link]
@@ -45,7 +45,7 @@ Attributes:
 'AVG' = average Beat in the 2D disc (radius queries) or rectangle (range queries)
 
 
-Project:
+# About Project:
 In this project i used the first 2 dataset of this Datasets and i used sckit-learn package for preprocessing data and  kmeans and for hierarcy i used scipy package.for the first dataset(Radius Queries) i used Kmeans and for knowing the number of clusters  i used elbow method and found that the number of clusters is 4.
 
 In the second dataset(Radius-Queries-Count) i used hierarchy and for knowing the number of clusters i used Dendogram plot and found that 3 clusters.
